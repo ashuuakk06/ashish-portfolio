@@ -107,7 +107,12 @@ export default function App() {
       <button className="mobile-menu" onClick={() => setMenuOpen(v => !v)} aria-label="Toggle menu">{menuOpen ? <X /> : <Menu />}</button>
       <nav className={menuOpen ? 'main-nav nav-open' : 'main-nav'}>
         {links.map(link => <a key={link} className={active === link.toLowerCase() ? 'nav-active' : ''} href={`#${link.toLowerCase()}`} onClick={() => setMenuOpen(false)}>{link}</a>)}
-        <a className="resume-link" href="/Ashish-Pagariya-Resume.pdf" download><Download size={15} /> Resume</a>
+        <a
+  className="resume-link"
+  href="/ashish_resume.pdf"
+  download="Ashish_Pagariya_Resume.pdf">
+  <Download size={15} /> Resume
+</a>
       </nav>
     </header>
 
