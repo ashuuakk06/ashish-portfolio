@@ -47,13 +47,24 @@ const projects = [
 ]
 
 const achievements = [
-  ['Dogfood 2026', 'Hackathon Raptors — built TrustForge for the hackathon.'],
-  ['Zero Dependency · 72-hour hackathon', 'Built and submitted SafeShare; received a score of 4.43/5.'],
+  [
+    'HackerRank Orchestrate',
+    'Participated in October 2026, demonstrating problem-solving and competitive programming skills.'
+  ],
+  [
+    'Dogfood 2026',
+    'Hackathon Raptors — built TrustForge for the hackathon.'
+  ],
+  [
+    'Zero Dependency · 72-hour hackathon',
+    'Built and submitted SafeShare; received a score of 4.43/5.'
+  ],
 ]
 const certifications = [
-  'IBM Java Developer Professional Certificate — Coursera, 2026',
+  'Java & Object Oriented Programming in Java — IBM, Coursera',
+  'Spring Boot, Spring Security & Application Finalization — Board Infinity, Coursera, 2026',
   'Back-End APIs — IBM SkillsBuild, 2026',
-  'Deloitte Data Analytics Job Simulation — Forage, 2026',
+  'AI Fundamentals — Google, Coursera, October 2026',
 ]
 
 const reveal = {
